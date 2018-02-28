@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+	overflow-y: hidden;
+	background-color: #eeeeee;
+	background-image: url(background.png);
+}
+
+.header {
+	font-size: 50px;
+}
+
+.container {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Playfair Display', serif;
+	font-weight: 600;
+	font-size: 40px;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+	border: 1px solid black;
+}
+
+.input {
+	height: 40px;
+	width: 350px;
+	padding-left: 10px;
+	box-shadow:0;
+    border:none;
+    font-family: 'Playfair Display', serif;
+    border-radius:0;
+    font-size: 17px;
+    background-color:transparent;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+input:focus {
+	outline: none;
+  	box-shadow:0 4px 7px rgba(0, 0, 0, 0.3);
+}
+
+.butt {
+	height: 40px;
+	font-family: 'Playfair Display', serif;
+	width: 150px;
+	margin-top: 20px;
+	font-size: 17px;
+	text-decoration: none;
+	outline: none;
+	border: 1px solid black;
+	background-color: transparent; 
+}
+
+.butt:hover {
+	background-color: black;
+	color: white;
+}
+
+.wrapper {
+	min-width: 90vw;
+	max-height: 70vh; 
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 10vh;
+}
+
+.itemTable {
+	min-width: 23vw;
+	max-height: 65vh;
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	overflow-y: scroll;
+}
+
+.items {
+	min-width: 23vw;
+	font-weight: 200;
+	font-size: 21px;
+	margin: 7px;
+	background: black;
+	color: white;
+	border-radius: 3px;
+	width: 200px;
+	padding: 8px;
+	box-shadow:0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.items:hover {
+	box-shadow:0 4px 7px rgba(0, 0, 0, 0.3);
+	cursor: not-allowed;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	font-family: 'Playfair Display', serif;	
+	font-size: 13px;
+	font-weight: 200;
+	text-align: center;
+}
