@@ -129,4 +129,12 @@ input:focus {
 	.container {
 		justify-content: flex-start;
 	}
+
+	body {
+		background-position: inherit;
+	}
+
+	.footer {
+		position: initial;
+	}
 }
