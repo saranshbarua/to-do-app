@@ -125,4 +125,8 @@ input:focus {
 	.input {
 		width: 70vw;
 	}
+
+	.container {
+		justify-content: flex-start;
+	}
 }
