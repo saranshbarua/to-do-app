@@ -108,3 +108,19 @@ input:focus {
 	font-weight: 200;
 	text-align: center;
 }
+
+@media only screen and (max-width: 675px) {
+	.wrapper {
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	.form {
+		width: 80vw;
+	}
+
+	.input {
+		width: 70vw;
+	}
+}
